@@ -8,8 +8,6 @@ tags:
   - untagged
 ---
 
-# The Effects of Learning JavaScript on Young Developers in Malawi
-
 JavaScript is one of the most widely-used programming languages in the world, and it plays a key role in the development of websites and web-based applications. In recent years, there has been a growing interest in teaching JavaScript to young developers in countries like Malawi, as a way to provide them with the skills they need to succeed in the global technology industry.
 
 ## The Benefits of Learning JavaScript
