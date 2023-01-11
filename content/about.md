@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2023-01-09T23:53:06+02:00
-draft: true
+draft: false
 ---
 
 # Prince Mwase
