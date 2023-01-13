@@ -29,3 +29,12 @@ In conclusion, while learning JavaScript has many benefits for young developers 
 ____________________________________________________________________________________________________________________________
 
 ###### Written by Prince Mwase
+
+<script src="https://utteranc.es/client.js"
+        repo="PrinceMwase/blog/"
+        issue-term="title"
+        label="Comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
