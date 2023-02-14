@@ -1,12 +1,14 @@
----
-title: "Making a Calendar With Javascript and Tailwindcss"
-date: 2023-02-14T12:29:39+02:00
-draft: false
-toc: false
-images:
-tags:
-  "javaScript"
----
++++
+title = "Making a Calendar With Javascript and Tailwindcss"
+date = "2023-02-14T10:22:33+02:00"
+draft = false
+tags = [
+    "javaScript"
+]
+series = ["javaScript"]
+[ author ]
+  name = "Prince Mwase"
++++
 
 ## Assumptions
 
