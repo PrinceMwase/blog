@@ -1,8 +1,14 @@
----
-title: "Understanding Variable Scope in Javascript"
-date: 2023-01-16T10:22:33+02:00
-draft: false
----
++++
+title = "Understanding Variable Scope in Javascript"
+date = "2023-01-16T10:22:33+02:00"
+draft = false
+tags = [
+    "javaScript"
+]
+series = ["javaScript basics"]
+[ author ]
+  name = "Prince Mwase"
++++
 
 JavaScript, like many programming languages, has a specific way of handling the scope of variables. In this article, we will take a closer look at variable scope in JavaScript and how it works.
 
@@ -68,7 +74,3 @@ JavaScript has a behavior called hoisting, which means that variable and functio
 In the example above, the variable `hoistedVariable` and the function `hoistedFunction` are hoisted to the top of the code before execution. This means that they can be accessed and called before they are declared in the code. However, it's important to note that hoisting only applies to variable and function declarations, and not their assignments. This means that trying to access a variable before it is assigned a value will return `undefined`.
 
 Understanding variable scope in JavaScript is crucial for writing efficient and maintainable code. You can better control the accessibility of your variables and avoid potential bugs. Remember to always consider the scope of your variables when declaring and using them in your code.
-
-____________________________________________________________________________________________________________________________
-
-###### Written by Prince Mwase
