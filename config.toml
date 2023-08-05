@@ -1,19 +1,17 @@
-baseurl      = "https://effortless-gumdrop-f3c5a1.netlify.app"
+baseurl      = "https://goonie.netlify.app"
 title        = "UI Hexed"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
-
-   [params.portrait]
-     path     = "/img/image.jpg"
-     alt      = "Portrait"
-     maxWidth = "50px"
 
     [params.footer]
     trademark = true
@@ -22,12 +20,14 @@ paginate     = 10
     author = true
 
     topText = []
-    bottomText = [
+    bottomText = ["for the &#10084; of simplicity",
       "Written in neovim"
     ]
 
   # Subtitle for home
-  homeSubtitle = "My profile page"
+  homeSubtitle = "My Profile Page"
+
+  description = "As i pass through the computer science route"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -35,8 +35,6 @@ paginate     = 10
   # Enable sharing buttons, if you like
   enableSharingButtons = true
 
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
   keywords = "homepage, blog"
   images = [""]
 
@@ -47,20 +45,11 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Prince Mwase"
-    subtitle = ""
-    keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "Prince Mwase"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
+[author]
+  name = "Prince Mwase"
   # And you can even create generic menu
 [menu]
   [[menu.main]]
@@ -78,7 +67,38 @@ paginate     = 10
     name       = "Projects"
     url        = "projects/"
 
-  [[menu.main]]
-    identifier = "Contact"
-    name       = "Contact"
-    url        = "contact/"
+    
+[[params.social]]
+  name = "github"
+  url = "https://github.com/PrinceMwase"
+
+[[params.social]]
+  name = "email"
+  url = "mailto://princefranklinemwase@gmail.com"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/prince-mwase-986356b0/"
+
+[[params.social]]
+  name = "whatsapp"
+  url = "https://wa.me/+265884652513"
+
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/MwaseSparrow"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd Prince/home/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+  [params.portrait]
+     path     = "/img/image.jpg"
+     alt      = "Portrait"
+     maxWidth = "50px"
