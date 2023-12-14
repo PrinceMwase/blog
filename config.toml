@@ -1,4 +1,4 @@
-baseurl      = "https://goonie.netlify.app"
+baseurl      = "https://goonie.onrender.com"
 title        = "UI Hexed"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
